@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<!-- CopyRight : Anmol Bhargava UTA ID 1001213922 -->
+<head>
+	<title>Simple Storage Service</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	<table>
+		<tr>
+			<td style='width: 30%;'><img class = 'newappIcon' src='https://myavantiservices.files.wordpress.com/2015/02/helloworld.gif' height="100px" width="200px">
+			</td>
+			<!-- CopyRight : Anmol Bhargava UTA ID 1001213922 -->
+		</tr>
+		<tr>
+			<td>
+				<h1 id = "message">Welcome</h1>
+			</td>
+			<!-- CopyRight : Anmol Bhargava UTA ID 1001213922 -->
+			<td>
+				<form id="formUpload" action="../upload" method="post" enctype=multipart/form-data>
+				<p class='description'></p> Please upload your documents here:<br><input type = "file" name="file_upload"><input type="submit" value="Submit" id="submit_file">
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<h4>List all the files currently on cloud</h4>
+			</td>
+			<td><!-- CopyRight : Anmol Bhargava UTA ID 1001213922 -->
+				
+				<a href="../list">Click here.</a>
+				
+			</td>
+		</tr>
+		<!-- CopyRight : Anmol Bhargava UTA ID 1001213922 -->
+		<tr>
+			<td>
+				<h4>Download a file<h4><h5>Enter correct file name and the version to be downloaded.</h5>
+			</td>
+			<td>
+				<form id="formDownload" action="../download" method="post" enctype=multipart/form-data>
+				<input type="text" name="file_download" value="name..."><br>
+				<input type="text" name="file_version" value="version.."><br>
+				<input type="submit" value="Submit" id="download_file">
+				</form>
+			</td>
+		</tr><!-- CopyRight : Anmol Bhargava UTA ID 1001213922 -->
+		<tr>
+			<td>
+				<h4>Delete a particular file</h4><h5>Enter correct file name to be deleted.</h5>
+			</td>
+			<td>
+				<form id="formDelete" action="../delete" method="post" enctype=multipart/form-data>
+				<input type="text" name="file_delete"><br>
+				<input type="text" name="file_d_version" value="version.."><br>
+				<input type="submit" value="Submit" id="delete_file">
+				</form>
+			</td>
+		<!-- CopyRight : Anmol Bhargava UTA ID 1001213922 -->
+		</tr>
+	</table>
+</body>
+<!-- CopyRight : Anmol Bhargava UTA ID 1001213922 -->
+</html>
