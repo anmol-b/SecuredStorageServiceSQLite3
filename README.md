@@ -1,13 +1,9 @@
-# Python Starter Overview
+# Secured Storage Service using Python's SQLite3
 
-The Python Starter demonstrates a simple, reusable Python web application.
+## Provides following functionality
 
-## Run the app locally
-
-1. [Install Python][]
-2. Download and extract the starter code from the Bluemix UI
-3. cd into the app directory
-4. Run `python server.py`
-5. Access the running app in a browser at http://localhost:8000
-
-[Install Python]: https://www.python.org/downloads/
+1. User Accounts - Login
+2. Upload file in relational DBMS
+3. Download file
+4. Delete file
+5. List all the files for particular user present in the system
